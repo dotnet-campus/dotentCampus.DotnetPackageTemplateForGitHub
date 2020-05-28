@@ -3,7 +3,7 @@
   "author": "dotnet-campus",
   "classifications": [ "Common", "Library" ],
   "identity": "CBBTemplate",
-  "name": "CBB Template",
+  "name": "dotnet campus .NET Package Template for GitHub",
   "shortName": "githubcbb",
   "sourceName": "CBBTemplate",
   "tags": 
