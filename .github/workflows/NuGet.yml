@@ -13,17 +13,13 @@ jobs:
     steps:
     - uses: actions/checkout@v1
  
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.300
-    - name: Build with dotnet
-      run: dotnet pack --configuration Release
-
     - name: Install Nuget
       uses: nuget/setup-nuget@v1
       with:
         nuget-version: '5.x'
 
-   - name: Push generated package to GitHub registry
-      run: nuget push .\bin\Release\*.nupkg -Source https://api.nuget.org/v3/index.json -SkipDuplicate -ApiKey ${{ secrets.NugetKey }} -NoSymbols 
+    - name: Package
+      run: nuget pack
+
+    - name: Push generated package to GitHub registry
+      run: nuget push *.nupkg -Source https://api.nuget.org/v3/index.json -SkipDuplicate -ApiKey ${{ secrets.NugetKey }} -NoSymbols 
