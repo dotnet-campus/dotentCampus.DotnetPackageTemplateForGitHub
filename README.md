@@ -13,7 +13,7 @@
 命令行输入下面代码安装
 
 ```csharp
-dotnet new -i dotnetCampus.GitHubCBBTemplate
+dotnet new -i dotentCampus.DotnetPackageTemplateForGitHub
 ```
 
 之后创建项目可采用下面代码创建
