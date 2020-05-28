@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "dotnet-campus",
+  "classifications": [ "Common", "Library" ],
+  "identity": "CBBTemplate",
+  "name": "CBB Template",
+  "shortName": "githubcbb",
+  "sourceName": "CBBTemplate",
+  "tags": 
+  {
+    "language": "C#",
+    "type": "project"
+  }
+}
