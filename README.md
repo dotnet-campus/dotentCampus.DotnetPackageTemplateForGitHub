@@ -1,4 +1,6 @@
-# dotnetCampus.GitHubCBBTemplate
+# dotnetCampus.DotnetPackageTemplateForGitHub
+
+dotnet campus .NET Package Template for GitHub
 
 提供通用 CBB 底层库项目创建模板
 
