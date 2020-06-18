@@ -4,6 +4,6 @@ namespace CBBTemplate
 {
     class Class1
     {
-    
+
     }
 }
