@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
- 
+
     - name: Build with dotnet
       run: dotnet build --configuration Release
 
