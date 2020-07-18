@@ -4,4 +4,5 @@
     <TargetFrameworks>net45;netstandard2.0;netcoreapp3.1</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
 </Project>
