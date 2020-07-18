@@ -7,8 +7,8 @@
  
     <!-- 替换下面信息 -->
     <Authors>dotnet-campus</Authors>
-    <RepositoryUrl>https://github.com/dotnet-campus/dotnetCampus.YOUR_PROJECT_NAME</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/dotnet-campus/dotnetCampus.YOUR_PROJECT_NAME</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dotnet-campus/CBBTemplate</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/dotnet-campus/CBBTemplate</PackageProjectUrl>
     <Description>TODO: 请在此处添加包描述信息。</Description>
 
     <RepositoryType>git</RepositoryType>
