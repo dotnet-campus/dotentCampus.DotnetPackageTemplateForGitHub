@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netcoreapp3.1;netstandard2.0;net45</TargetFrameworks>
+        <TargetFrameworks>netcoreapp3.1;net6.0;net45</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -28,7 +28,7 @@
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
 
-    <ItemGroup>
+    <ItemGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
         <!-- 链接源代码到 GitHub 仓库，方便调试 -->
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
     </ItemGroup>
