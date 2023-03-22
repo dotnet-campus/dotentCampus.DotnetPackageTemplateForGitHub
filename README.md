@@ -15,7 +15,7 @@ dotnet campus .NET Package Template for GitHub
 命令行输入下面代码安装
 
 ```csharp
-dotnet new -i dotentCampus.DotnetPackageTemplateForGitHub
+dotnet new install dotentCampus.DotnetPackageTemplateForGitHub
 ```
 
 之后创建项目可采用下面代码创建
