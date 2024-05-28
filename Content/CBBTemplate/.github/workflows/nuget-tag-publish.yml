@@ -22,7 +22,7 @@ jobs:
     - name: Build with dotnet
       run: |
         dotnet build --configuration Release
-        dotnet pack --configuration Release --no-build
+        # dotnet pack --configuration Release --no-build
 
     - name: Install Nuget
       uses: nuget/setup-nuget@v1
